@@ -97,11 +97,11 @@ STATIC_URL = '/assets/'
 STATICFILES_DIRS = [
     'C:/python/blog-backend/media',
     'C:/python/blog-backend',
-    'C:/python/blog-backend/img',
-    'C:/python/blog-backend/fonts',
-    'C:/python/blog-backend/img/blog',
-    'C:/python/blog-backend/img/banner',
-    'C:/python/blog-backend/img/blog/blog-slider'
+    'C:/python/blog-backend/static/img',
+    'C:/python/blog-backend/static/fonts',
+    'C:/python/blog-backend/static/img/blog',
+    'C:/python/blog-backend/static/img/banner',
+    'C:/python/blog-backend/static/img/blog/blog-slider'
 ]
 
 MEDIA_ROOT = os.getenv("MEDIA_ROOT", os.path.join(BASE_DIR, 'media'))
