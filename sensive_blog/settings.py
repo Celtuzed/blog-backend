@@ -92,12 +92,13 @@ USE_L10N = True
 
 USE_TZ = True
 
-STATIC_URL = '/assets/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     'C:/python/blog-backend/media',
     'C:/python/blog-backend',
     'C:/python/blog-backend/static/img',
+    'C:/python/blog-backend/static',
     'C:/python/blog-backend/static/fonts',
     'C:/python/blog-backend/static/img/blog',
     'C:/python/blog-backend/static/img/banner',
